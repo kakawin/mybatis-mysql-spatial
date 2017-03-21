@@ -1,5 +1,3 @@
-package com.yhgis.gisserver.config.mybatis.typehandler;
-
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.sql.CallableStatement;
@@ -22,7 +20,6 @@ import com.vividsolutions.jts.geom.Polygon;
 import com.vividsolutions.jts.io.ByteOrderValues;
 import com.vividsolutions.jts.io.WKBReader;
 import com.vividsolutions.jts.io.WKBWriter;
-import com.yhgis.gisserver.utils.GeoUtil;
 
 @MappedTypes({ Geometry.class, Point.class, Polygon.class, LineString.class, LinearRing.class, MultiPoint.class,
 		MultiPolygon.class, MultiLineString.class })
