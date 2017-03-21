@@ -1,0 +1,1 @@
+# mybatis-mysql-spatial
